@@ -7,7 +7,7 @@
 
 ## Tools installation
 
-### [Yosys](https://external.ink?to=yosyshq.net/yosys/)
+### [Yosys](https://yosyshq.net/yosys/)
 ```
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys 
