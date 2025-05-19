@@ -9,6 +9,8 @@
 
 ### [Yosys](https://yosyshq.net/yosys/)
 ```
+$ sudo apt update
+$ sudo apt upgrade
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys 
 $ sudo apt install make
@@ -19,5 +21,13 @@ $ sudo apt install build-essential clang bison flex \
 $ make 
 $ sudo make install
 ```
+### [Icarus Verilog (iverilog)](https://github.com/steveicarus/iverilog?tab=readme-ov-file#the-icarus-verilog-compilation-system)
+```
+$ sudo apt install iverilog
+```
 
+### [GTKWave](https://github.com/gtkwave/gtkwave?tab=readme-ov-file#gtkwave)
+```
+$ sudo apt install gtkwave
+```
 </details>
