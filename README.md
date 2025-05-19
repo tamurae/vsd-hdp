@@ -30,4 +30,8 @@ $ sudo apt install iverilog
 ```
 $ sudo apt install gtkwave
 ```
+
+### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
+
+
 </details>
