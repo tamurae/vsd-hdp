@@ -102,7 +102,7 @@ $ docker run hello-world
 <img alt="OpenSTA" src="/images/docker.png">
 
 ```
-$ git --version<img alt="OpenSTA" src="/images/docker.png">
+$ git --version
 $ docker --version
 $ python3 --version
 $ python3 -m pip --version
