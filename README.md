@@ -37,20 +37,14 @@ $ sudo apt install gtkwaveOpenSTA
 <img alt="Yosys" src="/images/GTKWave.png">
 
 ### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
-Installing Prerequisites
 ```
 $ sudo apt install cmake swig
 $ sudo apt install libeigen3-dev tcl-tclreadline
-```
-```
 $ tar xvfz cudd-3.0.0.tar.gz
 $ cd cudd-3.0.0
 $ ./configure --prefix=/usr/local
 $ make
 $ sudo make install
-```
-Building
-```
 $ git clone https://github.com/parallaxsw/OpenSTA.git
 $ cd OpenSTA
 $ mkdir build
@@ -76,8 +70,9 @@ $ sudo make install
 ```
 <img alt="OpenSTA" src="/images/ngspice.png">
 ### [Magic VLSI](http://opencircuitdesign.com/magic/)
+```
 $ sudo apt install m4 tcsh csh libx11-dev tcl-dev tk-dev libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
-
+```
 ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 
 </details>
