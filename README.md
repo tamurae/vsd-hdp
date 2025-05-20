@@ -1,6 +1,6 @@
 # VSD - Hardware Design Program
 <details>
-	<summary>Week 1 - Tools Installation </summary>
+<summary>Week 1 - Tools Installation </summary>
 
 ## Ubuntu 22.04.5 LTS installation in a VirtualBox Machine
 <img alt="VBox" src="/images/OracleVBox-tamurae.png">
@@ -37,7 +37,9 @@ $ sudo apt install gtkwave
 <img alt="Yosys" src="/images/GTKWave.png">
 
 ### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
-
+```
+$ sudo apt install cmake tcl swig
+```
 </details>
 
 <details>
