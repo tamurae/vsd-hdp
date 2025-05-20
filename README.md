@@ -41,6 +41,13 @@ $ sudo apt install gtkwave
 $ sudo apt install cmake swig
 $ sudo apt install libeigen3-dev tcl-tclreadline
 ```
+```
+$ tar xvfz cudd-3.0.0.tar.gz
+$ cd cudd-3.0.0
+$ ./configure --prefix=/usr/local
+$ make
+$ sudo make install
+```
 </details>
 
 <details>
