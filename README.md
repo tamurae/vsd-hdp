@@ -53,10 +53,6 @@ $ make
 $ sudo make install
 ```
 <img alt="OpenSTA" src="/images/OpenSTA.png">
-</details>
-
-<details>
-	<summary>Week 2 - Tools Installation (cont.) </summary>
 
 ### [ngspice](https://ngspice.sourceforge.io/)
 ```
@@ -68,7 +64,7 @@ $ ../configure  --with-x --with-readline=yes --disable-debug
 $ make
 $ sudo make installcurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
-<img alt="OpenSTA" src="/images/ngspice.png">
+<img alt="ngspice" src="/images/ngspice.png">
 
 ### [Magic VLSI](http://opencircuitdesign.com/magic/)
 ```
@@ -80,7 +76,7 @@ $ ./configure
 $ make
 $ sudo make install
 ```
-<img alt="OpenSTA" src="/images/magic.png">
+<img alt="magic" src="/images/magic.png">
 
 ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 ```
@@ -99,7 +95,7 @@ After reboot
 ```
 $ docker run hello-world
 ```
-<img alt="OpenSTA" src="/images/docker.png">
+<img alt="docker" src="/images/docker.png">
 
 ```
 $ git --version
@@ -110,5 +106,14 @@ $ make --version
 $ python3 -m venv -h
 ```
 <img alt="versions" src="/images/versions.png">
+
+```
+$ cd $HOME
+$ git clone https://github.com/The-OpenROAD-Project/OpenLane
+$ cd OpenLane
+$ make
+$ make test
+```
+<img alt="OpenLane" src="/images/OpenLane.png">
 
 </details>
