@@ -19,7 +19,7 @@ $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
 $ git submodule update --init
 $ make config-gcc
-$ make 
+$ make OpenSTA
 $ sudo make installOpenSTA
 ```
 <img alt="Yosys" src="/images/yosys.png">
@@ -51,7 +51,7 @@ $ sudo make install
 ```
 $ git clone https://github.com/parallaxsw/OpenSTA.git
 $ cd OpenSTA
-$ mkdir buildOpenSTA
+$ mkdir build
 $ cmake -DCUDD_DIR=/usr/local/ .
 $ make
 $ sudo make install
