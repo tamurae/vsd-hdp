@@ -100,6 +100,7 @@ After reboot
 $ docker run hello-world
 ```
 <img alt="OpenSTA" src="/images/docker.png">
+
 ```
 git --version
 docker --version
