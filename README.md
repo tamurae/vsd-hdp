@@ -37,6 +37,7 @@ $ sudo apt install gtkwaveOpenSTA
 <img alt="Yosys" src="/images/GTKWave.png">
 
 ### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
+Installing Prerequisites
 ```
 $ sudo apt install cmake swig
 $ sudo apt install libeigen3-dev tcl-tclreadline
@@ -48,6 +49,7 @@ $ ./configure --prefix=/usr/local
 $ make
 $ sudo make install
 ```
+Building
 ```
 $ git clone https://github.com/parallaxsw/OpenSTA.git
 $ cd OpenSTA
