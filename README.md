@@ -72,7 +72,8 @@ $ sudo make install
 
 ### [Magic VLSI](http://opencircuitdesign.com/magic/)
 ```
-$ sudo apt install m4 tcsh csh libx11-dev tcl-dev tk-dev libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
+$ sudo apt install m4 tcsh csh tcl-dev tk-dev libx11-dev \
+ libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
 ```
 ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 
