@@ -38,5 +38,10 @@ $ sudo apt install gtkwave
 
 ### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
 
+### [ngspice](https://ngspice.sourceforge.io/)
+
+### [Magic VLSI](http://opencircuitdesign.com/magic/)
+
+### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 
 </details>
