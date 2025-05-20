@@ -100,5 +100,14 @@ After reboot
 $ docker run hello-world
 ```
 <img alt="OpenSTA" src="/images/docker.png">
+```
+git --version
+docker --version
+python3 --version
+python3 -m pip --version
+make --version
+python3 -m venv -h
+```
+<img alt="OpenSTA" src="/images/versions.png">
 
 </details>
