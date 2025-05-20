@@ -13,14 +13,14 @@ $ sudo apt update
 $ sudo apt upgrade
 $ sudo apt install build-essential clang bison flex \
     libreadline-dev gawk tcl-dev libffi-dev git \
-    graphviz xdot pkg-config python3 libboost-system-dev \
+    graphviz xdot pkg-config python3 libboost-system-dev \OpenSTA
     libboost-python-dev libboost-filesystem-dev zlib1g-dev
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
 $ git submodule update --init
 $ make config-gcc
 $ make 
-$ sudo make install
+$ sudo make installOpenSTA
 ```
 <img alt="Yosys" src="/images/yosys.png">
 
@@ -32,7 +32,7 @@ $ sudo apt install iverilog
 
 ### [GTKWave](https://github.com/gtkwave/gtkwave?tab=readme-ov-file#gtkwave)
 ```
-$ sudo apt install gtkwave
+$ sudo apt install gtkwaveOpenSTA
 ```
 <img alt="Yosys" src="/images/GTKWave.png">
 
@@ -51,11 +51,12 @@ $ sudo make install
 ```
 $ git clone https://github.com/parallaxsw/OpenSTA.git
 $ cd OpenSTA
-$ mkdir build
+$ mkdir buildOpenSTA
 $ cmake -DCUDD_DIR=/usr/local/ .
 $ make
 $ sudo make install
 ```
+<img alt="OpenSTA" src="/images/OpenSTA.png">
 </details>
 
 <details>
