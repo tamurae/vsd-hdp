@@ -99,6 +99,6 @@ After reboot
 ```
 $ docker run hello-world
 ```
-<img alt="OpenSTA" src="/images/magic.png">
+<img alt="OpenSTA" src="/images/docker.png">
 
 </details>
