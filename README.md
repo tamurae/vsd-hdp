@@ -76,6 +76,7 @@ $ sudo make install
 ```
 <img alt="OpenSTA" src="/images/ngspice.png">
 ### [Magic VLSI](http://opencircuitdesign.com/magic/)
+$ sudo apt install m4 tcsh csh libx11-dev tcl-dev tk-dev libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
 
 ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 
