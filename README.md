@@ -10,7 +10,7 @@
 ### [Yosys](https://yosyshq.net/yosys/)
 ```
 $ sudo apt update
-$ sudo apt upgrade
+$ sudo apt upgrade<img alt="OpenSTA" src="/images/docker.png">
 $ sudo apt install build-essential clang bison flex \
     libreadline-dev gawk tcl-dev libffi-dev git \
     graphviz xdot pkg-config python3 libboost-system-dev \OpenSTA
@@ -102,13 +102,13 @@ $ docker run hello-world
 <img alt="OpenSTA" src="/images/docker.png">
 
 ```
-git --version
-docker --version
-python3 --version
-python3 -m pip --version
-make --version
-python3 -m venv -h
+$ git --version<img alt="OpenSTA" src="/images/docker.png">
+$ docker --version
+$ python3 --version
+$ python3 -m pip --version
+$ make --version
+$ python3 -m venv -h
 ```
-<img alt="OpenSTA" src="/images/versions.png">
+<img alt="versions" src="/images/versions.png">
 
 </details>
