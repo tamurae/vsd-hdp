@@ -34,6 +34,7 @@ $ sudo apt install iverilog
 ```
 $ sudo apt install gtkwave
 ```
+<img alt="Yosys" src="/images/GTKWave.png">
 
 ### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
 
