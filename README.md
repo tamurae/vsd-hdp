@@ -16,7 +16,8 @@ $ sudo apt install build-essential clang bison flex \
     graphviz xdot pkg-config python3 libboost-system-dev \
     libboost-python-dev libboost-filesystem-dev zlib1g-dev
 $ git clone https://github.com/YosysHQ/yosys.git
-$ cd yosys 
+$ cd yosys
+$ make config-gcc
 $ git submodule update --init
 $ make 
 $ sudo make install
