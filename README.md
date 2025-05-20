@@ -22,6 +22,8 @@ $ make config-gcc
 $ make 
 $ sudo make install
 ```
+<img alt="Yosys" src="/images/yosys.png">
+
 ### [Icarus Verilog (iverilog)](https://github.com/steveicarus/iverilog?tab=readme-ov-file#the-icarus-verilog-compilation-system)
 ```
 $ sudo apt install iverilog
