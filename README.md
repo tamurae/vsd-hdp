@@ -83,6 +83,9 @@ $ sudo make install
 <img alt="OpenSTA" src="/images/magic.png">
 
 ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
-
+```
+$ sudo apt install python3-venv python3-pip
+$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
 
 </details>
