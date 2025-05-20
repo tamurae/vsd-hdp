@@ -39,6 +39,7 @@ $ sudo apt install gtkwave
 ### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
 ```
 $ sudo apt install cmake swig
+$ sudo apt install tcl-tclreadline
 ```
 </details>
 
