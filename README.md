@@ -48,6 +48,13 @@ $ ./configure --prefix=/usr/local
 $ make
 $ sudo make install
 ```
+```
+git clone https://github.com/parallaxsw/OpenSTA.git
+cd OpenSTA
+mkdir build
+cmake -DCUDD_DIR=/usr/local/ .
+make
+```
 </details>
 
 <details>
