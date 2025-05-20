@@ -66,7 +66,7 @@ $ mkdir release
 $ cd release
 $ ../configure  --with-x --with-readline=yes --disable-debug
 $ make
-$ sudo make install
+$ sudo make installcurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
 <img alt="OpenSTA" src="/images/ngspice.png">
 
@@ -86,6 +86,7 @@ $ sudo make install
 ```
 $ sudo apt install python3-venv python3-pip
 $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
 
 </details>
