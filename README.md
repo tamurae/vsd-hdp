@@ -17,8 +17,8 @@ $ sudo apt install build-essential clang bison flex \
     libboost-python-dev libboost-filesystem-dev zlib1g-dev
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
-$ make config-gcc
 $ git submodule update --init
+$ make config-gcc
 $ make 
 $ sudo make install
 ```
