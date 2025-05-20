@@ -40,6 +40,8 @@ $ sudo apt install gtkwave
 ```
 $ sudo apt install cmake swig
 $ sudo apt install libeigen3-dev tcl-tclreadline
+$ wget -c https://github.com/davidkebo/cudd/blob/main/cudd_versions/cudd-3.0.0.tar.gz
+
 ```
 </details>
 
