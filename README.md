@@ -33,7 +33,7 @@
   
   ### [GTKWave](https://github.com/gtkwave/gtkwave?tab=readme-ov-file#gtkwave)
   ```
-  $ sudo apt install gtkwaveOpenSTA
+  $ sudo apt install gtkwave
   ```
   <img alt="Yosys" src="/images/GTKWave.png">
   
@@ -117,4 +117,3 @@
   <img alt="OpenLane" src="/images/OpenLane.png">
 
 </details>
-
