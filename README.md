@@ -65,7 +65,16 @@ $ sudo make install
 	<summary>Week 2 - Tools Installation (cont.) </summary>
 
 ### [ngspice](https://ngspice.sourceforge.io/)
-
+```
+$ tar -zxvf ngspice-44.2.tar.gz
+$ cd ngspice-44.2
+$ mkdir release
+$ cd release
+$ ../configure  --with-x --with-readline=yes --disable-debug
+$ make
+$ sudo make install
+```
+<img alt="OpenSTA" src="/images/ngspice.png">
 ### [Magic VLSI](http://opencircuitdesign.com/magic/)
 
 ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
