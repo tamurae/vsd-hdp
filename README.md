@@ -74,7 +74,15 @@ $ sudo make install
 ```
 $ sudo apt install m4 tcsh csh tcl-dev tk-dev libx11-dev \
     libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
+$ git clone https://github.com/RTimothyEdwards/magic
+$ cd magic
+$ ./configure
+$ make
+$ sudo make install
 ```
+<img alt="OpenSTA" src="/images/magic.png">
+
 ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
+
 
 </details>
