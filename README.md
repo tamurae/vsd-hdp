@@ -28,6 +28,7 @@ $ sudo make install
 ```
 $ sudo apt install iverilog
 ```
+<img alt="Yosys" src="/images/iverilog.png">
 
 ### [GTKWave](https://github.com/gtkwave/gtkwave?tab=readme-ov-file#gtkwave)
 ```
