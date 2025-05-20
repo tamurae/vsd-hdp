@@ -1,4 +1,4 @@
-# vsd - Hardware Design Program
+# VSD - Hardware Design Program
 <details>
 	<summary>Week 1 - Tools Installation </summary>
 
