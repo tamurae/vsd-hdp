@@ -129,6 +129,6 @@
   $ ./a.out
   $ gtkwave tb_good_mux.vcd
   ```
-  <img alt="gtkwave_good_mux" src="/images/GTKwave_good_mux.png">
+  <img alt="gtkwave_good_mux" src="/images/GTKWave_good_mux.png">
   
 </details>
