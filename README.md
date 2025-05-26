@@ -122,5 +122,13 @@
   <summary>Week 2 - </summary>
 
   ### Verilog RTL design and synthesis
+  ```
+  $ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+  $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
+  $ iverilog good_mux.v tb_good_mux.v
+  $ ./a.out
+  $ gtkwave tb_good_mux.vcd
+  ```
+  <img alt="gtkwave" src="/images/OpenLane.png">
   
 </details>
