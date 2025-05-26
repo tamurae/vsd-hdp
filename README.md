@@ -117,3 +117,10 @@
   <img alt="OpenLane" src="/images/OpenLane.png">
 
 </details>
+
+<details>
+  <summary>Week 2 - </summary>
+
+  ### Verilog RTL design and synthesis
+  
+</details>
