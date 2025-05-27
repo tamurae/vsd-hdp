@@ -130,5 +130,11 @@
   $ gtkwave tb_good_mux.vcd
   ```
   <img alt="gtkwave_good_mux" src="/images/GTKWave_good_mux.png">
-  
+
+   ### Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
+
+   ### Combinational and sequential optimizations
+
+   ### Gate-Level Simulation, blocking vs non-blocking and Synthesis-Simulation mismatches
+ 
 </details>
