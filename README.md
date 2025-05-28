@@ -134,7 +134,7 @@
   <img alt="gtkwave_good_mux" src="/images/GTKWave_good_mux.png">
 
   #### - Lab3: Yosys and abc
-  Logical synthesis
+  - Logical synthesis
   ```
   $ yosys
   > read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80_nomux.lib
@@ -143,7 +143,7 @@
   ```
   <img alt="Yosys_good_mux" src="/images/Yosys_good_mux.png">
 
-  Mapping to a given technology (Sky130 standard cells in this case) using [ABC](https://people.eecs.berkeley.edu/~alanmi/abc/)
+  - Mapping to a given technology (Sky130 standard cells in this case) using [ABC](https://people.eecs.berkeley.edu/~alanmi/abc/)
   ```
   > abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80_nomux.lib
   > show
@@ -154,7 +154,6 @@
   > write_verilog -noattr good_mux_netlist.v
   > exit
   ```
-
 
   ### * Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
 
