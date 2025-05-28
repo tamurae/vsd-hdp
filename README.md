@@ -135,6 +135,20 @@
 
   #### - Lab3: Yosys and abc
   Logical synthesis and mapping to a given technology (Sky130 standard cells in this case)
+  ```
+  $ yosys
+  > read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80_nomux.lib
+  > read_verilog good_mux.v
+  > synth -top good_mux
+  > abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80_nomux.lib
+  > show
+  ```
+  <img alt="Yosys_good_mux_nomux_show" src="/images/Yosys_good_mux_nomux_show.png">
+
+  ```
+  > write_verilog -noattr good_mux_netlist.v
+  > exit
+  ```
 
   Map to a given technology (Sky130 standard cells in this case)
 
