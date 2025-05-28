@@ -121,8 +121,8 @@
 <details>
   <summary>Week 2 - </summary>
 
-  ### Verilog RTL design and synthesis
-  #### iverilog and GTKWave
+  ### * Verilog RTL design and synthesis
+  #### - iverilog and GTKWave
   ```
   $ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
   $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
@@ -132,12 +132,12 @@
   ```
   <img alt="gtkwave_good_mux" src="/images/GTKWave_good_mux.png">
 
-   #### Yosys and Sky130 PDK
+   #### - Yosys and Sky130 PDK
    
-   ### Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
+   ### * Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
 
-   ### Combinational and sequential optimizations
+   ### * Combinational and sequential optimizations
 
-   ### Gate-Level Simulation, blocking vs non-blocking and Synthesis-Simulation mismatches
+   ### * Gate-Level Simulation, blocking vs non-blocking, and Synthesis-Simulation mismatches
  
 </details>
