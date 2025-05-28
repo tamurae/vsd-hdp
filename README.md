@@ -123,6 +123,7 @@
 
   ### * Verilog RTL design and synthesis
   #### - Lab2: iverilog and GTKWave
+  Functional verification (Boolean simulation: i.e., zero delays)
   ```
   $ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
   $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
@@ -132,12 +133,15 @@
   ```
   <img alt="gtkwave_good_mux" src="/images/GTKWave_good_mux.png">
 
-   #### - Lab3: Yosys and abc
-   
-   ### * Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
+  #### - Lab3: Yosys and abc
+  Logical synthesis (map to generic gates)
 
-   ### * Combinational and sequential optimizations
+  Map to a given technology (Sky130 standard cells in this case)
 
-   ### * Gate-Level Simulation, blocking vs non-blocking, and Synthesis-Simulation mismatches
+  ### * Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
+
+  ### * Combinational and sequential optimizations
+
+  ### * Gate-Level Simulation, blocking vs non-blocking, and Synthesis-Simulation mismatches
  
 </details>
