@@ -134,7 +134,7 @@
   <img alt="gtkwave_good_mux" src="/images/GTKWave_good_mux.png">
 
   #### - Lab3: Yosys and abc
-  Logical synthesis (map to generic gates)
+  Logical synthesis and mapping to a given technology (Sky130 standard cells in this case)
 
   Map to a given technology (Sky130 standard cells in this case)
 
