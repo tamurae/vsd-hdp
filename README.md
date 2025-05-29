@@ -154,6 +154,8 @@
   > write_verilog -noattr good_mux_netlist.v
   > exit
   ```
+  - Resulting schematic using Sky130 standard cells
+  <img alt="Yosys_good_mux_sch" src="/images/Yosys_good_mux_sch.png">
 
   ### * Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
 
