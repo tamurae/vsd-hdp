@@ -168,18 +168,20 @@
   > abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
   > show multiple_modules
   ```
+  - Resulting schematic
   <img alt="Yosys_multiple_modules" src="/images/Yosys_multiple_modules.png>
 
   ```
   > show sub_module1
   ```
+  - Resulting schematic using Sky130 standard cells
   <img alt="Yosys_sub_module1" src="/images/Yosys_sub_module1.png>
 
   ```
   > show sub_module2
   ```
+  - Resulting schematic using Sky130 standard cells
   <img alt="Yosys_sub_module2" src="/images/Yosys_sub_module2.png>
-
 
   ```
   > write_verilog -noattr multiple_modules_hier.v
