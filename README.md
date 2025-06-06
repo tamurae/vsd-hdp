@@ -169,24 +169,23 @@
   > show multiple_modules
   ```
   - Resulting schematic
-  <img alt="Yosys_multiple_modules" src="/images/Yosys_multiple_modules.png>
+  <img alt="Yosys_multiple_modules" src="/images/Yosys_multiple_modules.png">
 
   ```
   > show sub_module1
   ```
   - Resulting schematic using Sky130 standard cells
-  <img alt="Yosys_sub_module1" src="/images/Yosys_sub_module1.png>
+  <img alt="Yosys_sub_module1" src="/images/Yosys_sub_module1.png">
 
   ```
   > show sub_module2
   ```
   - Resulting schematic using Sky130 standard cells
-  <img alt="Yosys_sub_module2" src="/images/Yosys_sub_module2.png>
+  <img alt="Yosys_sub_module2" src="/images/Yosys_sub_module2.png">
 
   ```
   > write_verilog -noattr multiple_modules_hier.v
   ```
-  <img alt="Yosys_good_mux" src="/images/Yosys_good_mux.png">
 
   ### * Combinational and sequential optimizations
 
