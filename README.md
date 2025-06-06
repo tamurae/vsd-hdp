@@ -158,6 +158,33 @@
   <img alt="Yosys_good_mux_sch" src="/images/Yosys_good_mux_sch.png">
 
   ### * Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
+  #### - Lab5: Hierarchical vs Flat Synthesis
+  ```
+  $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
+  $ yosys
+  > read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+  > read_verilog multiple_modules.v
+  > synth -top multiple_modules
+  > abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+  > show multiple_modules
+  ```
+  <img alt="Yosys_multiple_modules" src="/images/Yosys_multiple_modules.png>
+
+  ```
+  > show sub_module1
+  ```
+  <img alt="Yosys_sub_module1" src="/images/Yosys_sub_module1.png>
+
+  ```
+  > show sub_module2
+  ```
+  <img alt="Yosys_sub_module2" src="/images/Yosys_sub_module2.png>
+
+
+  ```
+  > write_verilog -noattr multiple_modules_hier.v
+  ```
+  <img alt="Yosys_good_mux" src="/images/Yosys_good_mux.png">
 
   ### * Combinational and sequential optimizations
 
