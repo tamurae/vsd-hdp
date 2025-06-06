@@ -172,6 +172,12 @@
   <img alt="Yosys_multiple_modules" src="/images/Yosys_multiple_modules.png">
 
   ```
+  > write_verilog -noattr multiple_modules_hier.v
+  ```
+  - Resulting Verilog netlist
+  <img alt="mmodules" src="/images/mmodules.png">
+
+  ```
   > show sub_module1
   ```
   - Resulting schematic using Sky130 standard cells
@@ -183,9 +189,6 @@
   - Resulting schematic using Sky130 standard cells
   <img alt="Yosys_sub_module2" src="/images/Yosys_sub_module2.png">
 
-  ```
-  > write_verilog -noattr multiple_modules_hier.v
-  ```
 
   ### * Combinational and sequential optimizations
 
