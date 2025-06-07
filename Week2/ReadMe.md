@@ -87,7 +87,7 @@ $ iverilog dff_async_set.v tb_dff_async_set.v
 $ ./a.out
 $ gtkwave tb_dff_async_set.vcd
   ```
-<img alt="GTKWave_dff_async_set" src="./images/GTKWave_dff_async_set.png">
+<img alt="GTKWave_dff_asyncset" src="./images/GTKWave_dff_asyncset.png">
 
   ##### - Synchronous Reset DFF - functional simulation
   ```
