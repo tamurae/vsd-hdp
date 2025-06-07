@@ -161,6 +161,7 @@ $ yosys
 <img alt="mul2" src="./images/mul2.png">
 
 ##### - Multiplying by eight - synthesis
+
 > [!WARNING]
 > It is actually multiplying by nine
 ```
