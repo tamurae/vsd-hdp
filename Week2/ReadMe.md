@@ -118,6 +118,7 @@ $ yosys
 > show
   ```
 <img alt="Yosys_dff_asyncres" src="./images/Yosys_dff_asyncres.png">
+<img alt="dff_asyncres" src="./images/dff_asyncres.png">
 
   ##### - Asynchronous Set DFF - synthesis
   ```
@@ -128,6 +129,7 @@ $ yosys
 > show
   ```
 <img alt="Yosys_dff_asyncset" src="./images/Yosys_dff_asyncset.png">
+<img alt="dff_asyncset" src="./images/dff_asyncset.png">
 
   ##### - Synchronous Reset DFF - synthesis
   ```
@@ -138,6 +140,7 @@ $ yosys
 > show
   ```
 <img alt="Yosys_dff_sync_reset" src="./images/Yosys_dff_sync_reset.png">
+<img alt="dff_sync_reset" src="./images/dff_sync_reset.png">
 
 </details>
 
