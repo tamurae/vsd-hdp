@@ -1,5 +1,5 @@
 <details>
-<summary>- ### * Verilog RTL design and synthesis</summary>
+<summary>Verilog RTL design and synthesis</summary>
   #### - Lab2: iverilog and GTKWave
   Functional verification (Boolean simulation: i.e., zero delays)
   ```
