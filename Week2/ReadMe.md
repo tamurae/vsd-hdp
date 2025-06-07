@@ -14,6 +14,8 @@
 
   #### - Lab3: Yosys and abc
   - Logical synthesis
+  > [!IMPORTANT]
+  > After reboot
   > [!WARNING]
   > Note the library name...
   ```
