@@ -37,7 +37,9 @@
   <img alt="Yosys_good_mux_sch" src="./images/Yosys_good_mux_sch.png">
 </details>
 
-  ### * Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
+<details>
+<summary>Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles</summary>
+
   #### - Lab5: Hierarchical vs Flat Synthesis
   ```
   $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
@@ -78,7 +80,14 @@ $ ./a.out
 $ gtkwave tb_dff_asyncres.vcd
 
   ```
+</details>
 
-  ### * Combinational and sequential optimizations
+<details>
+<summary>Combinational and sequential optimizations</summary>
 
-  ### * Gate-Level Simulation, blocking vs non-blocking, and Synthesis-Simulation mismatches
+</details>
+
+<details>
+<summary>Gate-Level Simulation, blocking vs non-blocking, and Synthesis-Simulation mismatches</summary>
+
+</details>
