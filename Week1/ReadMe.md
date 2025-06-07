@@ -1,5 +1,5 @@
   ## Ubuntu 22.04.5 LTS installation in a VirtualBox Machine
-  <img alt="VBox" src="/images/OracleVBox-tamurae.png">
+  <img alt="VBox" src="./images/OracleVBox-tamurae.png">
   
   ## Tools installation
   
@@ -18,19 +18,19 @@
   $ make
   $ sudo make install
   ```
-  <img alt="Yosys" src="/images/yosys.png">
+  <img alt="Yosys" src="./images/yosys.png">
   
   ### [Icarus Verilog (iverilog)](https://github.com/steveicarus/iverilog?tab=readme-ov-file#the-icarus-verilog-compilation-system)
   ```
   $ sudo apt install iverilog
   ```
-  <img alt="Yosys" src="/images/iverilog.png">
+  <img alt="Yosys" src="./images/iverilog.png">
   
   ### [GTKWave](https://github.com/gtkwave/gtkwave?tab=readme-ov-file#gtkwave)
   ```
   $ sudo apt install gtkwave
   ```
-  <img alt="Yosys" src="/images/GTKWave.png">
+  <img alt="Yosys" src="./images/GTKWave.png">
   
   ### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
   ```
@@ -48,7 +48,7 @@
   $ make
   $ sudo make install
   ```
-  <img alt="OpenSTA" src="/images/OpenSTA.png">
+  <img alt="OpenSTA" src="./images/OpenSTA.png">
   
   ### [ngspice](https://ngspice.sourceforge.io/)
   ```
@@ -60,7 +60,7 @@
   $ make
   $ sudo make install
   ```
-  <img alt="ngspice" src="/images/ngspice.png">
+  <img alt="ngspice" src="./images/ngspice.png">
   
   ### [Magic VLSI](http://opencircuitdesign.com/magic/)
   ```
@@ -72,7 +72,7 @@
   $ make
   $ sudo make install
   ```
-  <img alt="magic" src="/images/magic.png">
+  <img alt="magic" src="./images/magic.png">
   
   ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
   ```
@@ -91,7 +91,7 @@
   ```
   $ docker run hello-world
   ```
-  <img alt="docker" src="/images/docker.png">
+  <img alt="docker" src="./images/docker.png">
   
   ```
   $ git --version
@@ -101,7 +101,7 @@
   $ make --version
   $ python3 -m venv -h
   ```
-  <img alt="versions" src="/images/versions.png">
+  <img alt="versions" src="./images/versions.png">
   
   ```
   $ git clone https://github.com/The-OpenROAD-Project/OpenLane
@@ -109,4 +109,4 @@
   $ make
   $ make test
   ```
-  <img alt="OpenLane" src="/images/OpenLane.png">
+  <img alt="OpenLane" src="./images/OpenLane.png">
