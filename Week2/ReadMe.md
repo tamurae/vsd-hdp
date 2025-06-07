@@ -1,4 +1,3 @@
-<details>
   <summary>Week 2 - </summary>
 
   ### * Verilog RTL design and synthesis
@@ -73,6 +72,3 @@
   ### * Combinational and sequential optimizations
 
   ### * Gate-Level Simulation, blocking vs non-blocking, and Synthesis-Simulation mismatches
- 
-</details>
-
