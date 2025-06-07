@@ -127,7 +127,7 @@ $ yosys
 > abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 > show
   ```
-<img alt="Yosys_dff_async_set" src="./images/Yosys_dff_async_set.png">
+<img alt="Yosys_dff_asyncset" src="./images/Yosys_dff_asyncset.png">
 
   ##### - Synchronous Reset DFF - synthesis
   ```
@@ -138,7 +138,7 @@ $ yosys
 > abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 > show
   ```
-<img alt="Yosys_dff_syncres" src="./images/Yosys_dff_syncres.png">
+<img alt="Yosys_dff_sync_res" src="./images/Yosys_dff_sync_res.png">
 
 </details>
 
