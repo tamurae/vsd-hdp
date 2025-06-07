@@ -162,8 +162,8 @@ $ yosys
 
 ##### - Multiplying by eight - synthesis
 
-> [!WARNING]
-> It is actually multiplying by nine
+  > [!WARNING]
+  > It is actually multiplying by nine
 ```
 > read_verilog mult_8.v
 > synth -top mult8
