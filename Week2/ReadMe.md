@@ -1,5 +1,6 @@
-  <summary>Week 2 - </summary>
+<summary>Week 2 - </summary>
 
+<details>
   ### * Verilog RTL design and synthesis
   #### - Lab2: iverilog and GTKWave
   Functional verification (Boolean simulation: i.e., zero delays)
@@ -35,6 +36,7 @@
   ```
   - Resulting schematic using Sky130 standard cells
   <img alt="Yosys_good_mux_sch" src="./images/Yosys_good_mux_sch.png">
+</details>
 
   ### * Timing libs, hierarchical vs flat synthesis, and efficient flop coding styles
   #### - Lab5: Hierarchical vs Flat Synthesis
