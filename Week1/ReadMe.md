@@ -87,7 +87,8 @@
   $ sudo usermod -aG docker $USER
   $ sudo reboot 
   ```
-  After reboot
+  > [!IMPORTANT]
+  > After reboot
   ```
   $ docker run hello-world
   ```
