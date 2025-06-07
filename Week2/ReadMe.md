@@ -79,6 +79,7 @@ $ iverilog dff_asyncres.v tb_dff_asyncres.v
 $ ./a.out
 $ gtkwave tb_dff_asyncres.vcd
   ```
+<img alt="GTKWave_dff_asyncres" src="./images/GTKWave_dff_asyncres.png">
 
   ##### - Synchronous Set DFF - functional simulation
   ```
@@ -86,6 +87,7 @@ $ iverilog dff_async_set.v tb_dff_async_set.v
 $ ./a.out
 $ gtkwave tb_dff_async_set.vcd
   ```
+<img alt="GTKWave_dff_async_set" src="./images/GTKWave_dff_async_set.png">
 
   ##### - Synchronous Reset DFF - functional simulation
   ```
@@ -93,15 +95,15 @@ $ iverilog dff_syncres.v tb_dff_syncres.v
 $ ./a.out
 $ gtkwave tb_dff_syncres.vcd
   ```
+<img alt="GTKWave_dff_syncres" src="./images/GTKWave_dff_syncres.png">
+
   ##### - Asynchronous Reset, Synchronous Reset DFF - functional simulation
   ```
 $ iverilog dff_asyncres_syncres.v tb_dff_asyncres_syncres.v
 $ ./a.out
 $ gtkwave tb_dff_asyncres_syncres.vcd
   ```
-
-
-
+<img alt="GTKWave_dff_asyncres_syncres" src="./images/GTKWave_dff_asyncres_syncres.png">
 
 </details>
 
