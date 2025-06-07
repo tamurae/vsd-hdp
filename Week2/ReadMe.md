@@ -68,6 +68,15 @@
   - Resulting schematic using Sky130 standard cells
   <img alt="Yosys_sub_module2" src="./images/Yosys_sub_module2.png">
 
+  #### - Various Flip-Flop Coding Styles
+
+  ##### - DFF functional simulation
+  ```
+$ iverilog dff_asyncres.v tb_dff_asyncres.v
+$ ./a.out
+$ gtkwave tb_dff_asyncres.vcd
+
+  ```
 
   ### * Combinational and sequential optimizations
 
