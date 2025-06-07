@@ -110,6 +110,7 @@ $ gtkwave tb_dff_asyncres_syncres.vcd
 $ yosys
 
 > read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
 > read_verilog dff_asyncres.v
 > synth -top dff_asyncres
 > dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -120,7 +121,6 @@ $ yosys
 
   ##### - Asynchronous Set DFF - synthesis
   ```
-> read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 > read_verilog dff_async_set.v
 > synth -top dff_async_set
 > dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -131,7 +131,6 @@ $ yosys
 
   ##### - Synchronous Reset DFF - synthesis
   ```
-> read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 > read_verilog dff_syncres.v
 > synth -top dff_syncres
 > dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
