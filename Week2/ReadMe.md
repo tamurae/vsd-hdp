@@ -137,7 +137,7 @@ $ yosys
 > abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 > show
   ```
-<img alt="Yosys_dff_sync_res" src="./images/Yosys_dff_sync_res.png">
+<img alt="Yosys_dff_sync_reset" src="./images/Yosys_dff_sync_reset.png">
 
 </details>
 
