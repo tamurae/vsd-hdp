@@ -73,13 +73,36 @@
 
   #### - Various Flip-Flop Coding Styles
 
-  ##### - DFF functional simulation
+  ##### - Asynchronous Reset DFF - functional simulation
   ```
 $ iverilog dff_asyncres.v tb_dff_asyncres.v
 $ ./a.out
 $ gtkwave tb_dff_asyncres.vcd
-
   ```
+
+  ##### - Synchronous Set DFF - functional simulation
+  ```
+$ iverilog dff_async_set.v tb_dff_async_set.v
+$ ./a.out
+$ gtkwave tb_dff_async_set.vcd
+  ```
+
+  ##### - Synchronous Reset DFF - functional simulation
+  ```
+$ iverilog dff_syncres.v tb_dff_syncres.v
+$ ./a.out
+$ gtkwave tb_dff_syncres.vcd
+  ```
+  ##### - Asynchronous Reset, Synchronous Reset DFF - functional simulation
+  ```
+$ iverilog dff_asyncres_syncres.v tb_dff_asyncres_syncres.v
+$ ./a.out
+$ gtkwave tb_dff_asyncres_syncres.vcd
+  ```
+
+
+
+
 </details>
 
 <details>
