@@ -16,6 +16,7 @@
   - Logical synthesis
   > [!WARNING]
   > Note the library name...
+  ```
   $ yosys
   > read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80_nomux.lib
   > read_verilog good_mux.v
