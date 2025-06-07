@@ -14,6 +14,8 @@
 
   #### - Lab3: Yosys and abc
   - Logical synthesis
+  > [!WARNING]
+  > Note the library name...
   ```
   $ yosys
   > read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80_nomux.lib
@@ -141,6 +143,33 @@ $ yosys
   ```
 <img alt="Yosys_dff_sync_reset" src="./images/Yosys_dff_sync_reset.png">
 <img alt="dff_sync_reset" src="./images/dff_sync_reset.png">
+
+#### - Interesting optimisations
+
+##### - Multiplying by two - synthesis
+```
+$ yosys
+> read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+> read_verilog mult_2.v
+> synth -top mul2
+> abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+> show
+```
+<img alt="Yosys_mul2" src="./images/Yosys_mul2.png">
+<img alt="mul2" src="./images/mul2.png">
+
+##### - Multiplying by eight - synthesis
+> [!WARNING]
+> It is actually multiplying by nine
+```
+> read_verilog mult_8.v
+> synth -top mult8
+> abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+> show
+```
+<img alt="Yosys_mult8" src="./images/Yosys_mult8.png">
+<img alt="mult8" src="./images/mult8.png">
 
 </details>
 
