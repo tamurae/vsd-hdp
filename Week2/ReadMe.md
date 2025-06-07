@@ -157,6 +157,7 @@ $ yosys
 > show
 ```
 <img alt="Yosys_mul2" src="./images/Yosys_mul2.png">
+
 <img alt="mul2" src="./images/mul2.png">
 
 ##### - Multiplying by eight - synthesis
@@ -169,6 +170,7 @@ $ yosys
 > show
 ```
 <img alt="Yosys_mult8" src="./images/Yosys_mult8.png">
+
 <img alt="mult8" src="./images/mult8.png">
 
 </details>
