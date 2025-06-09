@@ -200,6 +200,8 @@ $ yosys
   ```
   <img alt="Yosys_dff_const3" src="./images/Yosys_dff_const3.png">
 
+  <img alt="dff_const3" src="./images/dff_const3.png">
+
 </details>
 
 <details>
