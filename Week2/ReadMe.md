@@ -186,6 +186,7 @@ $ yosys
   $ iverilog dff_const3.v tb_dff_const3.v
   $ gtkwave tb_dff_const3.vcd
   ```
+  <img alt="GTKWave_dff_const3" src="./images/GTKWave_dff_const3.png">
 
   ```
   $ yosys
