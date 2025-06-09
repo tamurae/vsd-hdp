@@ -184,6 +184,7 @@ $ yosys
   ```
   $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
   $ iverilog dff_const3.v tb_dff_const3.v
+  $ ./a.out
   $ gtkwave tb_dff_const3.vcd
   ```
   <img alt="GTKWave_dff_const3" src="./images/GTKWave_dff_const3.png">
