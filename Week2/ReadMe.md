@@ -180,6 +180,24 @@ $ yosys
 <details>
 <summary>Combinational and sequential optimizations</summary>
 
+  #### - Sequential logic optimizations
+  ```
+  $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
+  $ iverilog dff_const3.v tb_dff_const3.v
+  $ gtkwave tb_dff_const3.vcd
+  ```
+
+  ```
+  $ yosys
+  > read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+  > read_verilog dff_const3.v
+  > synth -top dff_const3
+  > dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+  > abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+  > show
+  ```
+  <img alt="Yosys_dff_const3" src="./images/Yosys_dff_const3.png">
+
 </details>
 
 <details>
