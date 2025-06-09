@@ -202,6 +202,8 @@ $ yosys
 
   <img alt="dff_const3" src="./images/dff_const3.png">
 
+  <img alt="dff_const3_waveform" src="./images/dff_const3_waveform.png">
+
 </details>
 
 <details>
