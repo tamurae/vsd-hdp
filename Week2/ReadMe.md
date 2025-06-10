@@ -279,4 +279,40 @@ $ mv tb_bad_mux.vcd tb_bad_mux_gls.vcd
   ```
   <img alt="GTKWave_bad_mux_gls" src="./images/GTKWave_bad_mux_gls.png">
 
+  #### - Synthesis-Simulation mismatch - Misuse of blocking statements
+
+  ##### - Functional simulation
+  ```
+$ iverilog blocking_caveat.v tb_blocking_caveat.v
+$ ./a.out
+$ gtkwave tb_blocking_caveat.vcd
+$ mv tb_blocking_caveat.vcd tb_blocking_caveat_fsim.vcd
+  ```
+  <img alt="GTKWave_blocking_caveat_fsim" src="./images/GTKWave_blocking_caveat_fsim.png">
+
+  ##### - Synthesis
+  ```
+$ yosys
+$ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$ read_blocking_caveat.v
+$ synth -top blocking_caveat
+$ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$ show
+  ```
+  <img alt="Yosys_blocking_caveat" src="./images/Yosys_blocking_caveat.png">
+
+  ```
+$ write_verilog -noattr blocking_caveat_net.v
+  ```
+
+  ##### - Gate-Level Functional simulation
+  ```
+$ iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat_net.v tb_blocking_caveat.v
+$ ./a.out
+$ gtkwave blocking_caveat.vcd
+$ mv tb_blocking_caveat.vcd tb_blocking_caveat_gls.vcd
+  ```
+  <img alt="GTKWave_blocking_caveat_gls" src="./images/GTKWave_blocking_caveat_gls.png">
+
+
 </details>
