@@ -244,4 +244,39 @@ $ mv tb_ternary_operator_mux.vcd tb_ternary_operator_mux_gls.vcd
   ```
   <img alt="GTKWave_ternary_operator_mux_gls" src="./images/GTKWave_ternary_operator_mux_gls.png">
 
+  #### - Synthesis-Simulation mismatch - Incomplete sensitivity list
+
+  ##### - Functional simulation
+  ```
+$ iverilog bad_mux.v tb_bad_mux.v
+$ ./a.out
+$ gtkwave tb_bad_mux.vcd
+$ mv tb_bad_mux.vcd tb_bad_mux_fsim.vcd
+  ```
+  <img alt="GTKWave_bad_mux_fsim" src="./images/GTKWave_bad_mux_fsim.png">
+
+  ##### - Synthesis
+  ```
+$ yosys
+$ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$ read_verilog bad_mux.v
+$ synth -top bad_mux
+$ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+$ show
+  ```
+  <img alt="Yosys_bad_mux" src="./images/Yosys_bad_mux.png">
+
+  ```
+$ write_verilog -noattr bad_mux_net.v
+  ```
+
+  ##### - Gate-Level Functional simulation
+  ```
+$ iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v bad_mux_net.v tb_bad_mux.v
+$ ./a.out
+$ gtkwave tb_bad_mux.vcd
+$ mv tb_bad_mux.vcd tb_bad_mux_gls.vcd
+  ```
+  <img alt="GTKWave_bad_mux_gls" src="./images/GTKWave_bad_mux_gls.png">
+
 </details>
