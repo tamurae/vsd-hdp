@@ -258,11 +258,11 @@ $ mv tb_bad_mux.vcd tb_bad_mux_fsim.vcd
   ##### - Synthesis
   ```
 $ yosys
-$ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-$ read_verilog bad_mux.v
-$ synth -top bad_mux
-$ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-$ show
+> read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+> read_verilog bad_mux.v
+> synth -top bad_mux
+> abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+> show
   ```
   <img alt="Yosys_bad_mux" src="./images/Yosys_bad_mux.png">
 
