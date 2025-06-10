@@ -293,23 +293,23 @@ $ mv tb_blocking_caveat.vcd tb_blocking_caveat_fsim.vcd
   ##### - Synthesis
   ```
 $ yosys
-$ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-$ read_blocking_caveat.v
-$ synth -top blocking_caveat
-$ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-$ show
+> read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+> read_verilog blocking_caveat.v
+> synth -top blocking_caveat
+> abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+> show
   ```
   <img alt="Yosys_blocking_caveat" src="./images/Yosys_blocking_caveat.png">
 
   ```
-$ write_verilog -noattr blocking_caveat_net.v
+> write_verilog -noattr blocking_caveat_net.v
   ```
 
   ##### - Gate-Level Functional simulation
   ```
 $ iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat_net.v tb_blocking_caveat.v
 $ ./a.out
-$ gtkwave blocking_caveat.vcd
+$ gtkwave tb_blocking_caveat.vcd
 $ mv tb_blocking_caveat.vcd tb_blocking_caveat_gls.vcd
   ```
   <img alt="GTKWave_blocking_caveat_gls" src="./images/GTKWave_blocking_caveat_gls.png">
