@@ -209,7 +209,7 @@ $ yosys
 <details>
 <summary>Gate-Level Simulation, blocking vs non-blocking, and Synthesis-Simulation mismatches</summary>
 
-  #### - [Ternary Operator Mux](color: red)
+  #### - Ternary Operator Mux
 
   ##### - Functional simulation
   ```
