@@ -209,4 +209,39 @@ $ yosys
 <details>
 <summary>Gate-Level Simulation, blocking vs non-blocking, and Synthesis-Simulation mismatches</summary>
 
+  #### - Ternary Operator Mux
+
+  ##### - Functional simulation
+  ```
+$ iverilog ternary_operator_mux.v tb_ternary_operator_mux.v
+$ ./a.out
+$ gtkwave tb_ternary_operator_mux.vcd
+$ mv tb_ternary_operator_mux.vcd tb_ternary_operator_mux_fsim.vcd
+  ```
+  <img alt="GTKWave_ternary_operator_mux_fsim" src="./images/GTKWave_ternary_operator_mux_fsim.png">
+
+  ##### - Synthesis
+  ```
+$ yosys
+> read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+> read_verilog ternary_operator_mux.v
+> synth -top ternary_operator_mux
+> abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+> show
+  ```
+  <img alt="Yosys_ternary_operator_mux" src="./images/Yosys_ternary_operator_mux.png">
+
+  ```
+> write_verilog -noattr ternary_operator_mux_net.v
+  ```
+
+  ##### - Gate-Level Functional simulation
+  ```
+$ iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux_net.v tb_ternary_operator_mux.v
+$ ./a.out
+$ gtkwave tb_ternary_operator_mux.vcd
+$ mv tb_ternary_operator_mux.vcd tb_ternary_operator_mux_gls.vcd
+  ```
+  <img alt="GTKWave_ternary_operator_mux_gls" src="./images/GTKWave_ternary_operator_mux_gls.png">
+
 </details>
