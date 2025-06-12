@@ -66,3 +66,7 @@ $ gtkwave pre_synth_sim.vcd
   <img alt="GTKWave_presynth" src="./images/GTKWave_presynth.png">
 
 </details>
+
+> [!IMPORTANT]
+> The signals in the previous waveforms correspond to those at the top-level module (i.e., vsdbabysoc), except for the second '''OUT''' signal, which corresponds to the '''reg  real OUT''' variable in the '''dac''' instance of the '''avsddac''' module.
+
