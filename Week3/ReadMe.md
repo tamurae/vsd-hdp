@@ -20,7 +20,8 @@
   ```
   <img alt="VSDBabySoC-components" src="./images/VSDBabySoC-components.png">
 
+</details>
+
 > [!WARNING]
 > The RTL for the RISC-V MYTH processor is written using [TL-Verilog](https://github.com/TL-X-org/TL-V_Projects) (Transaction-Level Verilog), a Verilog extension
 
-</details>
