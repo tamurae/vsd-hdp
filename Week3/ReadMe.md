@@ -20,6 +20,7 @@
   ```
   <img alt="gtkwave_good_mux" src="./images/GTKWave_good_mux.png">
 
-  > [!WARNING]
-  > The RTL for the RISC-V MYTH processor is written using TL-Verilog
+> [!WARNING]
+> The RTL for the RISC-V MYTH processor is written using [TL-Verilog](https://github.com/TL-X-org/TL-V_Projects) (Transaction-Level Verilog), a Verilog extension
+
 </details>
