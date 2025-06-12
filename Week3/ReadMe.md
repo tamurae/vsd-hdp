@@ -35,8 +35,10 @@
   $ source sp_env/bin/activate
   (sp_env) pip install pyyaml click sandpiper-saas
   (sp_env) sandpiper-saas -i ./src/module/rvmyth.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
-  (sp_env) deactivate
   ```
   <img alt="rvmyth-tlv2v" src="./images/rvmyth-tlv2v.png">
 
+  ```
+  (sp_env) deactivate
+  ```
 </details>
