@@ -15,7 +15,7 @@
   #### - Lab3: Yosys and abc
   - Logical synthesis
     
-  > [!WARNING]
+  > [!IMPORTANT]
   > Note the library name...
   ```
   $ yosys
