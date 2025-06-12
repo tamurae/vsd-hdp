@@ -68,5 +68,5 @@ $ gtkwave pre_synth_sim.vcd
 </details>
 
 > [!IMPORTANT]
-> The signals in the previous waveforms correspond to those at the top-level module (i.e., vsdbabysoc), except for the second ''OUT'' signal, which corresponds to the ''reg  real OUT'' variable in the ''dac'' instance of the ''avsddac'' module.
+> The signals in the previous waveforms correspond to those at the top-level module (i.e., vsdbabysoc), except for the second ''OUT'' signal, which corresponds to the ''reg  real OUT'' variable in the ''dac'' instance of the ''avsddac'' module. Note that you need to change this signal ''Data Format'' to ''Analog → Interpolated''
 
