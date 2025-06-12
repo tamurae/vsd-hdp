@@ -2,7 +2,7 @@
 
 <details>
 <summary>VSDBabySoC Components</summary>
-  
+
   [VSDBabySoC](https://github.com/manili/VSDBabySoC): Top level module.
   ```
   git clone https://github.com/manili/VSDBabySoC.git
