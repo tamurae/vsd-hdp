@@ -29,4 +29,13 @@
 <summary>TLV to Verilog Conversion for RISC-V MYTH</summary>
   
   #### - TLV to Verilog Conversion for RISC-V MYTH
+  ```
+  $ cd VSDBabySoC
+  $ python3 -m venv sp_env
+  $ source sp_env/bin/activate
+  (sp_env) pip install pyyaml click sandpiper-saas
+  (sp_env) sandpiper-saas -i ./src/module/rvmyth.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
+  ```
+  <img alt="rvmyth-tlv2v" src="./images/rvmyth-tlv2v.png">
+
 </details>
