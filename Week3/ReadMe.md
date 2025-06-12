@@ -26,7 +26,7 @@
 > The RTL for the RISC-V MYTH processor is written using [TL-Verilog](https://github.com/TL-X-org/TL-V_Projects) (Transaction-Level Verilog), a Verilog extension
 
 <details>
-<summary>VSDBabySoC</summary>
+<summary>TLV to Verilog Conversion for RISC-V MYTH</summary>
   
   #### - TLV to Verilog Conversion for RISC-V MYTH
 </details>
