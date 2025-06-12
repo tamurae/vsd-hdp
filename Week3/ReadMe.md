@@ -44,6 +44,13 @@
 </details>
 
 <details>
+<summary>Block Diagram</summary>
+  
+  <img alt="VSDBabySoC" src="./images/VSDBabySoC.png">
+
+</details>
+
+<details>
 <summary>Functional Simulation</summary>
   
   #### - Pre-Synthesis
