@@ -15,8 +15,9 @@
   #### - Lab3: Yosys and abc
   - Logical synthesis
     
-  > <font color="green"> IMPORTANT </font>
-  > Note the library name...
+> [!IMPORTANT]
+
+> Note the library name...
   ```
   $ yosys
   > read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80_nomux.lib
