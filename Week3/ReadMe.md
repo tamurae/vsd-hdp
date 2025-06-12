@@ -18,7 +18,7 @@
   ```
   git clone https://github.com/vsdip/rvmyth_avsddac_interface.git
   ```
-  <img alt="gtkwave_good_mux" src="./images/GTKWave_good_mux.png">
+  <img alt="VSDBabySoC-components" src="./images/VSDBabySoC-components.png">
 
 > [!WARNING]
 > The RTL for the RISC-V MYTH processor is written using [TL-Verilog](https://github.com/TL-X-org/TL-V_Projects) (Transaction-Level Verilog), a Verilog extension
