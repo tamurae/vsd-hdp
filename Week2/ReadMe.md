@@ -15,7 +15,7 @@
   #### - Lab3: Yosys and abc
   - Logical synthesis
     
-  > [!IMPORTANT]
+  > <font color="green"> IMPORTANT </font>
   > Note the library name...
   ```
   $ yosys
