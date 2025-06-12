@@ -15,7 +15,7 @@
   #### - Lab3: Yosys and abc
   - Logical synthesis
     
-> #### [!IMPORTANT]
+> [*** IMPORTANT *****]
 
 > Note the library name...
   ```
@@ -164,8 +164,9 @@ $ yosys
 
 ##### - Multiplying by eight - synthesis
 
-  > [!WARNING]
-  > It is actually multiplying by nine
+> [*** WARNING *****]
+
+> It is actually multiplying by nine
 ```
 > read_verilog mult_8.v
 > synth -top mult8
@@ -314,6 +315,5 @@ $ gtkwave tb_blocking_caveat.vcd
 $ mv tb_blocking_caveat.vcd tb_blocking_caveat_gls.vcd
   ```
   <img alt="GTKWave_blocking_caveat_gls" src="./images/GTKWave_blocking_caveat_gls.png">
-
 
 </details>
