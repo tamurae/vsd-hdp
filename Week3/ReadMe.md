@@ -1,7 +1,8 @@
+## VSDBabySoC
+
 <details>
-<summary>VSDBabySoC</summary>
+<summary>VSDBabySoC Components</summary>
   
-  #### - VSDBabySoC Components
   [VSDBabySoC](https://github.com/manili/VSDBabySoC): Top level module.
   ```
   git clone https://github.com/manili/VSDBabySoC.git
@@ -26,9 +27,8 @@
 > The RTL for the RISC-V MYTH processor is written using [TL-Verilog](https://github.com/TL-X-org/TL-V_Projects) (Transaction-Level Verilog), a Verilog extension
 
 <details>
-<summary>TLV to Verilog Conversion for RISC-V MYTH</summary>
+<summary>TL-Verilog to Verilog Conversion for RISC-V MYTH</summary>
   
-  #### - TLV to Verilog Conversion for RISC-V MYTH
   ```
   $ cd VSDBabySoC
   $ python3 -m venv sp_env
