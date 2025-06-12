@@ -1,3 +1,5 @@
+## Synthesis and Functional Simulation
+
 <details>
 <summary>Verilog RTL design and synthesis</summary>
   
