@@ -51,7 +51,7 @@
 </details>
 
 <details>
-<summary>Logical Synthesis and Functional Simulation</summary>
+<summary>Functional Simulation</summary>
   
   #### - Pre-Synthesis
   ```
@@ -71,9 +71,26 @@ $ gtkwave pre_synth_sim.vcd
 > The signals in the previous waveforms correspond to those at the top-level module (i.e., vsdbabysoc), except for the second ''OUT'' signal, which corresponds to the ''reg  real OUT'' variable in the ''dac'' instance of the ''avsddac'' module. Note that you need to change this signal ''Data Format'' to ''Analog → Interpolated''
 
 <details>
-<summary>Mapping and Gate-Level Functional Simulation</summary>
+<summary>Logical Synthesis, Mapping, and Gate-Level Functional Simulation</summary>
 
-  #### - Post-Synthesis
+  #### - Logical Synthesis
+  ```
+  $ cd VSDBabySoC
+  $ mkdir -p output/post_synth_sim
 
+  $ yosys
+
+  > read_verilog ./src/module/vsdbabysoc.v
+  > read_verilog -I ./src/include/ ./src/module/rvmyth.v
+  > read_verilog -I ./src/include/ ./src/module/clk_gate.v
+
+  > read_liberty -lib ./src/lib/avsdpll.lib
+  > read_liberty -lib ./src/lib/avsddac.lib
+  > read_liberty -lib ./src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+  > synth -top vsdbabysoc
+  ```
+  <img alt="VSDBabySoC_LogicalSynthesis1" src="./images/VSDBabySoC_LogicalSynthesis1.png">
+  <img alt="VSDBabySoC_LogicalSynthesis2" src="./images/VSDBabySoC_LogicalSynthesis2.png">
   
 </details>
