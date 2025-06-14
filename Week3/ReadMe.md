@@ -117,5 +117,15 @@ $ gtkwave pre_synth_sim.vcd
   > write_verilog -noattr ./output/post_synth_sim/vsdbabysoc.synth.v
   ```
 
+  #### - Gate-Level Simulation
+  ```
+  $ iverilog -o ./output/post_synth_sim/post_synth_sim.out \
+-DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 \
+-I ./src/module -I ./output/post_synth_sim/ \
+-I ../sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model \
+./src/module/testbench.v
+  ```
+  <img alt="iverilog-error" src="./images/iverilog-error.png">
+
   
 </details>
