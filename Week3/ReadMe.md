@@ -155,3 +155,10 @@ $ gtkwave pre_synth_sim.vcd
   <img alt="GTKWave_postsynth" src="./images/GTKWave_postsynth.png">
 
 </details>
+
+<details>
+<summary>Functional vs Gate-Level Functional Simulation</summary>
+
+  <img alt="GTKWave_postVSpre" src="./images/GTKWave_postVSpre.png">
+
+</details>
