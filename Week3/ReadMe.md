@@ -92,5 +92,26 @@ $ gtkwave pre_synth_sim.vcd
   ```
   <img alt="VSDBabySoC_LogicalSynthesis1" src="./images/VSDBabySoC_LogicalSynthesis1.png">
   <img alt="VSDBabySoC_LogicalSynthesis2" src="./images/VSDBabySoC_LogicalSynthesis2.png">
+
+  #### - Mapping
+  ```
+  > dfflibmap -liberty ./src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+  > opt
+
+  > abc -liberty ./src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib -script +strash;scorr;ifraig;retime;{D};strash;dch,-f;map,-M,1,{D}
+
+  > flatten
+
+  > setundef -zero
+
+  > clean -purge
+
+  > rename -enumerate
+
+  > stat
+  ```
+  <img alt="VSDBabySoC_Mapping" src="./images/VSDBabySoC_Mapping.png">
+
   
 </details>
