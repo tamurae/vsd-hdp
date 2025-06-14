@@ -138,4 +138,13 @@ $ gtkwave pre_synth_sim.vcd
 > 
 > `endif // SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
 
+<details>
+  ```
+  $ iverilog -o ./output/post_synth_sim/post_synth_sim.out \
+-DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 \
+-I ./src/module -I ./output/post_synth_sim/ \
+-I ../sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model \
+./src/module/testbench.v
+ ```
 
+</details>
