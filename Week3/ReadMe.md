@@ -140,19 +140,18 @@ $ gtkwave pre_synth_sim.vcd
 
 <details>
 <summary>Gate-Level Functional Simulation</summary>
-  ```
-  $ iverilog -o ./output/post_synth_sim/post_synth_sim.out \
-  -DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 \
-  -I ./src/module -I ./output/post_synth_sim/ \
-  -I ../sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model \
-  ./src/module/testbench.v
-  ```
 
   ```
+  $ iverilog -o ./output/post_synth_sim/post_synth_sim.out \
+-DPOST_SYNTH_SIM -DFUNCTIONAL -DUNIT_DELAY=#1 \
+-I ./src/module -I ./output/post_synth_sim/ \
+-I ../sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model \
+./src/module/testbench.v
+
   $ cd output/post_synth_sim/
   $ ./post_synth_sim.out
   $ gtkwave post_synth_sim.vcd
  ```
-  <img alt="iverilog-error" src="./images/iverilog-error.png">
+  <img alt="GTKWave_postsynth" src="./images/GTKWave_postsynth.png">
 
 </details>
