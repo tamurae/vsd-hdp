@@ -113,5 +113,9 @@ $ gtkwave pre_synth_sim.vcd
   ```
   <img alt="VSDBabySoC_Mapping" src="./images/VSDBabySoC_Mapping.png">
 
+  ```
+  > write_verilog -noattr ./output/post_synth_sim/vsdbabysoc.synth.v
+  ```
+
   
 </details>
