@@ -130,14 +130,12 @@ $ gtkwave pre_synth_sim.vcd
 </details>
 
 > [!IMPORTANT]
-> Using a text editor open the sky130_fd_sc_hd.v file; go to the given line and search for SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
-
-Using a text editor, open the sky130_fd_sc_hd.v file; go to the given line and search for SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V. The offending line says:
-
-`endif SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
-
-It must be
-
-`endif // SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
+> Using a text editor, open the sky130_fd_sc_hd.v file; go to the given line and search for SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V. The offending line says:
+>
+> `endif SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
+> 
+> It must be
+> 
+> `endif // SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
 
 
