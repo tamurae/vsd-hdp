@@ -4,4 +4,6 @@
   
 * [Week 2 - Synthesis and Functional Simulation](https://github.com/tamurae/vsd-hdp/blob/main/Week2/)
 
-* [Week 3 - VSDBabySoc](https://github.com/tamurae/vsd-hdp/blob/main/Week3/)
+* [Week 3 - VSDBabySoc - Synthesis and Functional Simulation](https://github.com/tamurae/vsd-hdp/blob/main/Week3/)
+
+* [Week 4 - VSDBabySoc - Timing Analysis](https://github.com/tamurae/vsd-hdp/blob/main/Week4/)
