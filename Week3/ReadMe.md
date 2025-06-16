@@ -1,4 +1,4 @@
-## VSDBabySoC
+## VSDBabySoC - Synthesis and Functional Simulation
 
 <details>
 <summary>VSDBabySoC Components</summary>
