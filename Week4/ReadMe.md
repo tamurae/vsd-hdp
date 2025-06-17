@@ -1,7 +1,9 @@
 ## VSDBabySoC - Timing Analysis using [OpenSTA](https://github.com/parallaxsw/OpenSTA)
 
+### [CUDD](https://davidkebo.com/cudd/)
+
 <details>
-<summary>Build and install [CUDD](https://davidkebo.com/cudd/)</summary>
+<summary>Build and install CUDD</summary>
 
 ```
 $ wget https://github.com/davidkebo/cudd/raw/main/cudd_versions/cudd-3.0.0.tar.gz
