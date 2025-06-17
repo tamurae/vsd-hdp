@@ -29,3 +29,29 @@
 </details>
 
   #### [OpenSTA](https://github.com/parallaxsw/OpenSTA)
+
+<details>
+<summary>Build and install OpenSTA</summary>
+
+ ```
+ $ git clone https://github.com/parallaxsw/OpenSTA.git
+ $ cd OpenSTA
+ $ mkdir build
+ $ cd build
+ $ cmake -DCUDD_DIR=$HOME/cudd ..
+ ```
+ <img alt="OpenSTA_cmake" src="./images/OpenSTA_cmake.png">
+
+ ```
+ $ make -j$(nproc)
+ $ ./sta
+
+ ```
+ <img alt="OpenSTA" src="./images/OpenSTA.png">
+
+ ```
+ $ cd  
+ ```
+
+</details>
+
