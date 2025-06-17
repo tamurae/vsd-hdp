@@ -1,4 +1,4 @@
-## VSDBabySoC - Timing Analysis using [OpenSTA](https://github.com/parallaxsw/OpenSTA)
+## VSDBabySoC - Timing Analysis
 
  ### Tools installation
   
@@ -18,3 +18,4 @@ $ cd
 ```
 </details>
 
+  #### [OpenSTA](https://github.com/parallaxsw/OpenSTA)
