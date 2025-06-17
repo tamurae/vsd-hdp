@@ -1,8 +1,8 @@
 ## VSDBabySoC - Timing Analysis
 
- ### Tools installation
+### Tools installation
   
-  #### [CUDD](https://davidkebo.com/cudd/)
+#### [CUDD](https://davidkebo.com/cudd/)
 
 <details>
 <summary>Build and install CUDD</summary>
@@ -28,7 +28,7 @@
 
 </details>
 
-  #### [OpenSTA](https://github.com/parallaxsw/OpenSTA)
+#### [OpenSTA](https://github.com/parallaxsw/OpenSTA)
 
 <details>
 <summary>Build and install OpenSTA</summary>
@@ -54,4 +54,22 @@
  ```
 
 </details>
+
+#### Timing Analysis Example using the command line
+
+<details>
+<summary>Example Circuit</summary>
+
+ ```
+ $ cd OpenSTA/examples/
+ $ yosys
+ > read_liberty -lib nangate45_slow.lib.gz
+ > read_verilog example1.v
+ > synth -top top
+ > show
+ ```
+ <img alt="example1" src="./images/example1.png">
+
+</details>
+
 
