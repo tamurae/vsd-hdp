@@ -2,6 +2,7 @@
 
 <details>
 <summary>Build and install CUDD</summary>
+
 ```
 $ wget https://github.com/davidkebo/cudd/raw/main/cudd_versions/cudd-3.0.0.tar.gz
 $ tar zxvf cudd-3.0.0.tar.gz
