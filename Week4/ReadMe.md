@@ -91,4 +91,11 @@
 </details>
 
 > [!NOTE]  
-> The analysis did not consider wiring delays
+> The previous analysis did not consider wiring delays
+
+<details>
+<summary>Clock Setup Analysis for Register-to-Register Path considering wiring</summary>
+
+This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesign.com/spef-format-part-1/) (Standard Parasitic Exchange Format) file for the circuit
+
+</details>
