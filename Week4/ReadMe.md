@@ -99,5 +99,3 @@
 This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesign.com/spef-format-part-1/) (Standard Parasitic Exchange Format) file for the circuit
 
 </details>
-
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
