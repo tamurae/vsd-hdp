@@ -5,7 +5,7 @@
   
   #### - Lab2: iverilog and GTKWave
   Functional verification (Boolean simulation: i.e., zero delays)
-  ```
+  ```bash
   $ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
   $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
   $ iverilog good_mux.v tb_good_mux.v
@@ -80,7 +80,7 @@
   #### - Various Flip-Flop Coding Styles
 
   ##### - Asynchronous Reset DFF - functional simulation
-  ```
+  ```bash
 $ iverilog dff_asyncres.v tb_dff_asyncres.v
 $ ./a.out
 $ gtkwave tb_dff_asyncres.vcd
@@ -88,7 +88,7 @@ $ gtkwave tb_dff_asyncres.vcd
 <img alt="GTKWave_dff_asyncres" src="./images/GTKWave_dff_asyncres.png">
 
   ##### - Synchronous Set DFF - functional simulation
-  ```
+  ```bash
 $ iverilog dff_async_set.v tb_dff_async_set.v
 $ ./a.out
 $ gtkwave tb_dff_async_set.vcd
@@ -96,7 +96,7 @@ $ gtkwave tb_dff_async_set.vcd
 <img alt="GTKWave_dff_asyncset" src="./images/GTKWave_dff_asyncset.png">
 
   ##### - Synchronous Reset DFF - functional simulation
-  ```
+  ```bash
 $ iverilog dff_syncres.v tb_dff_syncres.v
 $ ./a.out
 $ gtkwave tb_dff_syncres.vcd
@@ -104,7 +104,7 @@ $ gtkwave tb_dff_syncres.vcd
 <img alt="GTKWave_dff_syncres" src="./images/GTKWave_dff_syncres.png">
 
   ##### - Asynchronous Reset, Synchronous Reset DFF - functional simulation
-  ```
+  ```bash
 $ iverilog dff_asyncres_syncres.v tb_dff_asyncres_syncres.v
 $ ./a.out
 $ gtkwave tb_dff_asyncres_syncres.vcd
@@ -185,7 +185,7 @@ $ yosys
 <summary>Combinational and sequential optimizations</summary>
 
   #### - Sequential logic optimizations
-  ```
+  ```bash
   $ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
   $ iverilog dff_const3.v tb_dff_const3.v
   $ ./a.out
@@ -216,7 +216,7 @@ $ yosys
   #### - Ternary Operator Mux
 
   ##### - Functional simulation
-  ```
+  ```bash
 $ iverilog ternary_operator_mux.v tb_ternary_operator_mux.v
 $ ./a.out
 $ gtkwave tb_ternary_operator_mux.vcd
@@ -240,7 +240,7 @@ $ yosys
   ```
 
   ##### - Gate-Level Functional simulation
-  ```
+  ```bash
 $ iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux_net.v tb_ternary_operator_mux.v
 $ ./a.out
 $ gtkwave tb_ternary_operator_mux.vcd
@@ -251,7 +251,7 @@ $ mv tb_ternary_operator_mux.vcd tb_ternary_operator_mux_gls.vcd
   #### - Synthesis-Simulation mismatch - Incomplete sensitivity list
 
   ##### - Functional simulation
-  ```
+  ```bash
 $ iverilog bad_mux.v tb_bad_mux.v
 $ ./a.out
 $ gtkwave tb_bad_mux.vcd
@@ -275,7 +275,7 @@ $ write_verilog -noattr bad_mux_net.v
   ```
 
   ##### - Gate-Level Functional simulation
-  ```
+  ```bash
 $ iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v bad_mux_net.v tb_bad_mux.v
 $ ./a.out
 $ gtkwave tb_bad_mux.vcd
@@ -286,7 +286,7 @@ $ mv tb_bad_mux.vcd tb_bad_mux_gls.vcd
   #### - Synthesis-Simulation mismatch - Misuse of blocking statements
 
   ##### - Functional simulation
-  ```
+  ```bash
 $ iverilog blocking_caveat.v tb_blocking_caveat.v
 $ ./a.out
 $ gtkwave tb_blocking_caveat.vcd
@@ -310,7 +310,7 @@ $ yosys
   ```
 
   ##### - Gate-Level Functional simulation
-  ```
+  ```bash
 $ iverilog ../my_lib/verilog_model/primitives.v  ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat_net.v tb_blocking_caveat.v
 $ ./a.out
 $ gtkwave tb_blocking_caveat.vcd
