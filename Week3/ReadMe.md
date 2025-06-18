@@ -68,7 +68,7 @@ $ gtkwave pre_synth_sim.vcd
 </details>
 
 > [!IMPORTANT]
-> The signals in the previous waveforms correspond to those at the top-level module (i.e., vsdbabysoc), except for the second ''OUT'' signal, which corresponds to the ''reg  real OUT'' variable in the ''dac'' instance of the ''avsddac'' module. Note that you need to change this signal ''Data Format'' to ''Analog → Interpolated''
+> The signals in the previous waveforms correspond to those at the top-level module (i.e., ``vsdbabysoc``), except for the second ``OUT`` signal, which corresponds to the ``reg  real OUT`` variable in the ``dac`` instance of the ``avsddac`` module. Note that you need to change this signal's ``Data Format`` to ``Analog → Interpolated``
 
 <details>
 <summary>Logical Synthesis, Mapping, and Gate-Level Functional Simulation</summary>
@@ -130,13 +130,17 @@ $ gtkwave pre_synth_sim.vcd
 </details>
 
 > [!IMPORTANT]
-> Using a text editor, open the sky130_fd_sc_hd.v file; go to the given line and search for SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V. The offending line says:
->
-> `endif SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
-> 
+> Using a text editor, open the ``sky130_fd_sc_hd.v`` file; go to the given line and search for ``SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V``. The offending line says:
+
+```verilog
+`endif SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
+```
+
 > It must be
-> 
-> `endif // SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
+
+```verilog
+`endif // SKY130_FD_SC_HD__LPFLOW_BLEEDER_FUNCTIONAL_V
+```
 
 <details>
 <summary>Gate-Level Functional Simulation</summary>
