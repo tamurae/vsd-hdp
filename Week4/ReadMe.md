@@ -7,7 +7,7 @@
 <details>
 <summary>Build and install CUDD</summary>
 
- ```
+ ```bash
  $ wget https://github.com/davidkebo/cudd/raw/main/cudd_versions/cudd-3.0.0.tar.gz
  $ tar zxvf cudd-3.0.0.tar.gz
  $ cd cudd-3.0.0
@@ -15,14 +15,14 @@
  ```
  <img alt="cudd_config" src="./images/cudd_config.png">
 
- ```
+ ```bash
  $ make -j$(nproc)
  $ make install
 
  ```
  <img alt="cudd_install" src="./images/cudd_install.png">
 
- ```
+ ```bash
  $ cd  
  ```
 
@@ -33,7 +33,7 @@
 <details>
 <summary>Build and install OpenSTA</summary>
 
- ```
+ ```bash
  $ git clone https://github.com/parallaxsw/OpenSTA.git
  $ cd OpenSTA
  $ mkdir build
@@ -42,14 +42,14 @@
  ```
  <img alt="OpenSTA_cmake" src="./images/OpenSTA_cmake.png">
 
- ```
+ ```bash
  $ make -j$(nproc)
  $ ./sta
 
  ```
  <img alt="OpenSTA" src="./images/OpenSTA.png">
 
- ```
+ ```bash
  $ cd  
  ```
 
@@ -99,3 +99,5 @@
 This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesign.com/spef-format-part-1/) (Standard Parasitic Exchange Format) file for the circuit
 
 </details>
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
