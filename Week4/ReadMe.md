@@ -55,7 +55,7 @@
 
 </details>
 
-#### Timing Analysis Example using the command line
+### Timing Analysis Example using the command line
 
 <details>
 <summary>Example Circuit</summary>
