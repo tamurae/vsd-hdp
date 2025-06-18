@@ -4,7 +4,7 @@
   ## Tools installation
   
   ### [Yosys](https://yosyshq.net/yosys/)
-  ```
+  ```bash
   $ sudo apt update
   $ sudo apt upgrade
   $ sudo apt install build-essential clang bison flex \
@@ -21,19 +21,19 @@
   <img alt="Yosys" src="./images/yosys.png">
   
   ### [Icarus Verilog (iverilog)](https://github.com/steveicarus/iverilog?tab=readme-ov-file#the-icarus-verilog-compilation-system)
-  ```
+  ```bash
   $ sudo apt install iverilog
   ```
   <img alt="Yosys" src="./images/iverilog.png">
   
   ### [GTKWave](https://github.com/gtkwave/gtkwave?tab=readme-ov-file#gtkwave)
-  ```
+  ```bash
   $ sudo apt install gtkwave
   ```
   <img alt="Yosys" src="./images/GTKWave.png">
   
   ### [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA?tab=readme-ov-file#static-timing-analysis)
-  ```
+  ```bash
   $ sudo apt install cmake swig
   $ sudo apt install libeigen3-dev tcl-tclreadline
   $ tar -zxvf cudd-3.0.0.tar.gz
@@ -51,7 +51,7 @@
   <img alt="OpenSTA" src="./images/OpenSTA.png">
   
   ### [ngspice](https://ngspice.sourceforge.io/)
-  ```
+  ```bash
   $ tar -zxvf ngspice-44.2.tar.gz
   $ cd ngspice-44.2
   $ mkdir release
@@ -63,7 +63,7 @@
   <img alt="ngspice" src="./images/ngspice.png">
   
   ### [Magic VLSI](http://opencircuitdesign.com/magic/)
-  ```
+  ```bash
   $ sudo apt install m4 tcsh csh tcl-dev tk-dev libx11-dev \
       libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
   $ git clone https://github.com/RTimothyEdwards/magic
@@ -75,7 +75,7 @@
   <img alt="magic" src="./images/magic.png">
   
   ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
-  ```
+  ```bash
   $ sudo apt install python3-venv python3-pip
   $ sudo apt install apt-transport-https ca-certificates curl software-properties-commonbeing 
   $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -89,12 +89,12 @@
   ```
   > [!IMPORTANT]
   > After reboot
-  ```
+  ```bash
   $ docker run hello-world
   ```
   <img alt="docker" src="./images/docker.png">
   
-  ```
+  ```bash
   $ git --version
   $ docker --version
   $ python3 --version
@@ -104,7 +104,7 @@
   ```
   <img alt="versions" src="./images/versions.png">
   
-  ```
+  ```bash
   $ git clone https://github.com/The-OpenROAD-Project/OpenLane
   $ cd OpenLane
   $ make
