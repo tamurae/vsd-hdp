@@ -76,7 +76,7 @@
 <summary>Clock Setup Analysis for Register-to-Register Path</summary>
 
   ```
-  $ ./sta
+  $ sta
   % read_liberty nangate45_slow.lib.gz
   % read_verilog example1.v
   % link_design top
@@ -97,5 +97,19 @@
 <summary>Clock Setup Analysis for Register-to-Register Path considering wiring</summary>
 
 This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesign.com/spef-format-part-1/) (Standard Parasitic Exchange Format) file for the circuit
+
+  ```
+  $ sta
+  % read_liberty nangate45_slow.lib.gz
+  % read_verilog example1.v
+  % link_design top
+  % read_spef example1.dspef
+  % create_clock -name clk -period 10 {clk1 clk2 clk3}
+  % set_input_delay -clock clk 0 {in1 in2}
+  % report_checks
+ ```
+ <img alt="OpenSTA_example1_spef" src="./images/OpenSTA_example1_spef.png">
+
+ <img alt="example1_timing_spef" src="./images/example1_timing_spef.png">
 
 </details>
