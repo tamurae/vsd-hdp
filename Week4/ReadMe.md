@@ -117,7 +117,7 @@ This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesi
 ### Timing Analysis Example using a [Tcl](https://wiki.tcl-lang.org/page/Tcl+Tutorial+Index) script
 
 <details>
-<summary>Clock Setup and Hold Analysis</summary>
+<summary>Clock Setup (max path) and Hold (min path) Analysis</summary>
   
   ```
   $ sta
