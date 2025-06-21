@@ -113,3 +113,8 @@ This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesi
  <img alt="example1_timing_spef" src="./images/example1_timing_spef.png">
 
 </details>
+
+### Timing Analysis Example using a [Tcl](https://wiki.tcl-lang.org/page/Tcl+Tutorial+Index) script
+
+<details>
+</details>
