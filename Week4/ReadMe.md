@@ -126,3 +126,24 @@ This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesi
  <img alt="OpenSTA_example1_tcl" src="./images/OpenSTA_example1_tcl.png">
 
 </details>
+
+### VSDBabySoC Setup and Hold Analysis
+
+<details>
+<summary></summary>
+  
+  ```bash
+$ cd OpenSTA/examples
+$ mkdir timing_libs/
+$ cp ../../VSDBabySoC/src/lib/* timing_libs/
+$ mkdir BabySOC
+$ cp ../../VSDBabySoC/output/post_synth_sim/vsdbabysoc.synth.v BabySOC/
+$ cp ../../VSDBabySoC/src/sdc/vsdbabysoc_synthesis.sdc BabySOC/
+$ cp gcd_sky130hd.sdc BabySOC/
+$ ls -l timing_libs/ BabySOC/
+$ cd BabySOC/
+  ```
+ <img alt="OpenSTA_example1_tcl" src="./images/OpenSTA_example1_tcl.png">
+
+</details>
+
