@@ -144,7 +144,8 @@ $ ls -l timing_libs/ BabySOC/
   ```
  <img alt="BabySOC_files" src="./images/BabySOC_files.png">
 
-You'll also need a TCL file (save it into the BabySOC directory):
+
+You'll also need a TCL file (save it in the BabySOC directory):
   ```
 #
 #   vsdbabysoc_min_max_delays.tcl
@@ -177,8 +178,10 @@ report_checks -path_delay min_max
 
   ```
 $ cd BabySOC/
+$ sta
+% source vsdbabysoc_min_max_delays.tcl
   ```
- <img alt="OpenSTA_example1_tcl" src="./images/OpenSTA_example1_tcl.png">
+ <img alt="vsdbabysoc_min_max_delays_error" src="./images/vsdbabysoc_min_max_delays_error.png">
 
 </details>
 
