@@ -185,3 +185,18 @@ $ sta
 
 </details>
 
+> [!IMPORTANT]
+> Using a text editor, open the ``avsdpll.lib`` file. The offending line says:
+
+``    //pin (GND#2) {``
+
+Modify the line as follows:
+
+``    /*pin (GND#2) {``
+
+Find the closing matching brace and modify the line as follows:
+
+``    /}*/``
+
+Repeat this procedure for all instances with this pattern.
+
