@@ -130,7 +130,7 @@ This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesi
 ### VSDBabySoC Setup and Hold Analysis
 
 <details>
-<summary>Preparing reqjuired files</summary>
+<summary>Preparing required files</summary>
   
   ```bash
 $ cd OpenSTA/examples
@@ -199,4 +199,16 @@ Find the closing matching brace and modify the line as follows:
 ``    /}*/``
 
 Repeat this procedure for all instances with this pattern.
+
+<details>
+<summary>Getting results</summary>
+
+  ```
+% source vsdbabysoc_min_max_delays.tcl
+  ```
+ <img alt="vsdbabysoc_min_max_delays" src="./images/vsdbabysoc_min_max_delays.png">
+
+</details>
+
+### VSDBabySoC [PVT Corners](https://www.physicaldesign4u.com/2020/07/pvt-process-voltage-temperature.html) Analysis
 
