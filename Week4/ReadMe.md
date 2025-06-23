@@ -130,7 +130,7 @@ This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesi
 ### VSDBabySoC Setup and Hold Analysis
 
 <details>
-<summary>Prepar</summary>
+<summary>Preparing reqjuired files</summary>
   
   ```bash
 $ cd OpenSTA/examples
@@ -141,6 +141,41 @@ $ cp ../../VSDBabySoC/output/post_synth_sim/vsdbabysoc.synth.v BabySOC/
 $ cp ../../VSDBabySoC/src/sdc/vsdbabysoc_synthesis.sdc BabySOC/
 $ cp gcd_sky130hd.sdc BabySOC/
 $ ls -l timing_libs/ BabySOC/
+  ```
+ <img alt="BabySOC_files" src="./images/BabySOC_files.png">
+
+You'll also need a TCL file (save it into the BabySOC directory):
+  ```
+#
+#   vsdbabysoc_min_max_delays.tcl
+#
+
+# Read timing characteristics libraries (Sky130A standard cells)
+read_liberty -min ../timing_libs/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -max ../timing_libs/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+# Read timing characteristics libraries (avsdpll IP)
+read_liberty -min ../timing_libs/avsdpll.lib
+read_liberty -max ../timing_libs/avsdpll.lib
+
+# Read timing characteristics libraries (avsddac IP)
+read_liberty -min ../timing_libs/avsddac.lib
+read_liberty -max ../timing_libs/avsddac.lib
+
+# Read vsdbabysoc gate-level synthesized netlist
+read_verilog vsdbabysoc.synth.v
+
+# Link the top-level module to the timing characteristics libraries
+link_design vsdbabysoc
+
+# Read SDC constraints
+read_sdc vsdbabysoc_synthesis.sdc
+
+# Generate timing report
+report_checks -path_delay min_max
+  ```
+
+  ```
 $ cd BabySOC/
   ```
  <img alt="OpenSTA_example1_tcl" src="./images/OpenSTA_example1_tcl.png">
