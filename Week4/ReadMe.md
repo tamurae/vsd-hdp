@@ -130,7 +130,7 @@ This analysis requires using the corresponding [SPEF](https://www.vlsisystemdesi
 ### VSDBabySoC Setup and Hold Analysis
 
 <details>
-<summary></summary>
+<summary>Prepar</summary>
   
   ```bash
 $ cd OpenSTA/examples
