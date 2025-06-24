@@ -212,3 +212,9 @@ Repeat this procedure for all instances with this pattern.
 
 ### VSDBabySoC [PVT Corners](https://www.physicaldesign4u.com/2020/07/pvt-process-voltage-temperature.html) Analysis
 
+<details>
+<summary>Summary</summary>
+
+<img alt="OpenSTA_summary" src="./images/OpenSTA_summary.png">
+
+</details>
