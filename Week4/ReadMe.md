@@ -220,9 +220,7 @@ Repeat this procedure for all instances with this pattern.
 </details>
 
 > [!IMPORTANT]
-
-All ff corners are OK ✅
+> All ff corners are OK ✅
 
 > [!CAUTION]
-
-None of the ss corners are OK ❌
+> None of the ss corners are OK ❌
