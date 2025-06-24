@@ -218,3 +218,6 @@ Repeat this procedure for all instances with this pattern.
 <img alt="OpenSTA_summary" src="./images/OpenSTA_summary.png">
 
 </details>
+
+All ff corners are OK ✅
+None of the ss corners are OK ❌
